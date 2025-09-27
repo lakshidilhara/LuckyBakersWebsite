@@ -95,15 +95,13 @@ a:hover {
   text-decoration: underline;      
 }
 
-/* Mobile responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   body {
     padding: 0 15px;
     margin: 0;
     box-sizing: border-box;
   }
 
-  /* Header stacked vertically */
   .header-container {
     flex-direction: column;
     align-items: center;
@@ -126,7 +124,6 @@ a:hover {
     margin: 0;
   }
 
-  /* Headings scale down */
   h1 {
     font-size: 2em;
     text-align: center;
@@ -140,13 +137,11 @@ a:hover {
     text-align: center;
   }
 
-  /* Paragraphs smaller + centered */
   p {
     font-size: 14px;
     text-align: center;
   }
 
-  /* Sections full width */
   section {
     width: 100%;
     padding: 10px;
@@ -154,7 +149,6 @@ a:hover {
     text-align: center;
   }
 
-  /* Gallery images responsive */
   .gallery img,
   picture img {
     width: 100%;
@@ -164,7 +158,6 @@ a:hover {
     margin: 10px auto;
   }
 
-  /* Contact form fields full width */
   form input,
   form textarea,
   form button {
@@ -172,3 +165,4 @@ a:hover {
     box-sizing: border-box;
   }
 }
+
