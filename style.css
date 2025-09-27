@@ -1,0 +1,151 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fdf5e6;
+  font-family: Arial, sans-serif;
+  color: #333;                    
+  line-height: 1.6;               
+  margin: 0;
+  padding: 0 20px;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  color: #b35d3a;                  
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3em;
+}
+
+h2 {
+  color: #a0522d;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #d2691e;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+a {
+  color: #b35d3a;
+  text-decoration: none;         
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #f4d7b2;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#location-hours {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contacts {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#gallery img {
+  width: 250px;
+  height: auto;
+}
+
+
+a:hover {
+  text-decoration: underline;      
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0 15px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .gallery img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  section {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  form input,
+  form textarea,
+  form button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
