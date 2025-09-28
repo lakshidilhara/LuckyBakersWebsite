@@ -4,15 +4,15 @@ body {
   align-items: center;
   justify-content: flex-start;
   background-color: #fdf5e6;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto" , sans-serif;
   color: #333;                    
-  line-height: 1.6;               
+  line-height: 1.6;              
   margin: 0;
   padding: 0 20px;
 }
 
 h1 {
-  font-family: 'Georgia', serif;
+  font-family: "Playfair Display", serif;
   color: #b35d3a;                  
   text-align: center;
   margin-top: 20px;
@@ -20,6 +20,7 @@ h1 {
 }
 
 h2 {
+  font-family: "Playfair Display", serif;
   color: #a0522d;
   text-align: center;
   margin-top: 30px;
@@ -27,6 +28,7 @@ h2 {
 }
 
 h3 {
+  font-family: "Playfair Display", serif;
   color: #d2691e;
   text-align: center;
   margin-top: 10px;
@@ -165,4 +167,5 @@ a:hover {
     box-sizing: border-box;
   }
 }
+
 
